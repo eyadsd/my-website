@@ -17,7 +17,7 @@ export function Experience() {
       location: "Budapest, Hungary",
       period: "Aug 2024 – Present",
       description:
-        "Developing scalable backend services for an analytics platform, integrating with BigQuery and Stripe, and improving dashboard performance by up to 75%.",
+        "Developing scalable backend services for a werehouse-native analystics platform",
       technologies: ["Python", "SQLAlchemy", "Dash", "PostgreSQL", "GitLab CI", "Terraform", "AWS"],
       logo: "assets/mitzu.svg", 
       achievements: [
@@ -34,7 +34,7 @@ export function Experience() {
       location: "Remote – Vienna, Austria",
       period: "Apr 2023 – Jan 2024",
       description:
-        "Built scalable, test-driven microservices for a SaaS platform monitoring power plants. Led CI/CD deployment and used Kubernetes for service orchestration.",
+        "Built scalable, test-driven microservices for a SaaS platform monitoring power plants..",
       technologies: ["Python", "Django", "PostgreSQL", "Docker", "GitLab CI", "Kubernetes", "Pandas"],
       logo: "assets/raicoon.svg",
       achievements: [
@@ -163,14 +163,14 @@ export function Experience() {
 
                       <p className="text-muted-foreground mb-4">{experience.description}</p>
 
-                      <div className="mb-4">
+                      {/*<div className="mb-4">
                         <h4 className="font-medium mb-2">Key Achievements:</h4>
                         <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
                           {experience.achievements.map((achievement, i) => (
                             <li key={i}>{achievement}</li>
                           ))}
                         </ul>
-                      </div>
+                      </div>*/}
 
                       <div>
                         <div className="flex flex-wrap gap-2">
