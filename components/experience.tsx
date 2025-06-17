@@ -34,7 +34,7 @@ export function Experience() {
       location: "Remote – Vienna, Austria",
       period: "Apr 2023 – Jan 2024",
       description:
-        "Built scalable, test-driven microservices for a SaaS platform monitoring power plants..",
+        "Built scalable, test-driven microservices for a SaaS platform monitoring power plants.",
       technologies: ["Python", "Django", "PostgreSQL", "Docker", "GitLab CI", "Kubernetes", "Pandas"],
       logo: "assets/raicoon.svg",
       achievements: [
